@@ -13,21 +13,21 @@ D1 = 5, D2 = 1, D3 = 0, D4 = 2, D5 = 6, D6 = 5
 
 Pesos:
 
-|Aresta Ramal|     |Fórmula do peso w(e) |          |RA 510265          |
-|--------------    | --------------------|          |---------------------|
-| e1 (S0, S1)     | w1 = 10 + (D6 mod 5)   |        |10 + (5 mod 5) = 10 km  
-| e2 (S0, S2)     | w2 = 15 + (D5 mod 7)   |        |15 + (6 mod 7) = 21 km
-|e3 (S1, S2)     |w3 = 8 + (D4 mod 4)    |         |8 + (2 mod 4) =   10 km
-|e4 (S1, S3)     |w4 = 12 + (D3 mod 6)   |         |12 + (0 mod 6) =  12 km
-|e5 (S2, S4)     |w5 = 14 + (D2 mod 5)   |         |14 + (1 mod 5) =  15 km
-|e6 (S2, S5)     |w6 = 9 + (D1 mod 6)    |         |9 + (5 mod 6) =   14 km
-|e7 (S3, S4)     |w7 = 7 + ((D5 + D6) mod 5) |     |7 + (10 mod 5) =  7  km
-|e8 (S3, S6)     |w8 = 11 + ((D4 + D5) mod 6) |    |11 + (8 mod 6) =  13 km
-|e9 (S4, S5)     |w9 = 6 + ((D3 + D4) mod 4)  |    |6 + (2 mod 4) =   8  km
-|e10 (S4, S7)    |w10 = 16 + ((D2 + D3) mod 7) |   |16 + (1 mod 7) =  17 km
-|e11 (S5, S7)    |w11 = 18 + ((D1 + D2) mod 8) |   |18 + (6 mod 8) =  24 km
-|e12 (S6, S7)    |w12 = 9 + ((D5 + D1) mod 5) |    |9 + (7 mod 5) =   10 km
-|e12 (S1, S4)    |w13 = 20 + (D6 mod 4)   |        |20 + (5 mod 4) =  21 km
+| Aresta Ramal | Fórmula do peso w(e) | RA 510265 |
+| --- | --- | --- |
+| e1 (S0, S1) | w1 = 10 + (D6 mod 5) | 10 + (5 mod 5) = 10 km |
+| e2 (S0, S2) | w2 = 15 + (D5 mod 7) | 15 + (6 mod 7) = 21 km |
+| e3 (S1, S2) | w3 = 8 + (D4 mod 4) | 8 + (2 mod 4) = 10 km |
+| e4 (S1, S3) | w4 = 12 + (D3 mod 6) | 12 + (0 mod 6) = 12 km |
+| e5 (S2, S4) | w5 = 14 + (D2 mod 5) | 14 + (1 mod 5) = 15 km |
+| e6 (S2, S5) | w6 = 9 + (D1 mod 6) | 9 + (5 mod 6) = 14 km |
+| e7 (S3, S4) | w7 = 7 + ((D5 + D6) mod 5) | 7 + (10 mod 5) = 7 km |
+| e8 (S3, S6) | w8 = 11 + ((D4 + D5) mod 6) | 11 + (8 mod 6) = 13 km |
+| e9 (S4, S5) | w9 = 6 + ((D3 + D4) mod 4) | 6 + (2 mod 4) = 8 km |
+| e10 (S4, S7) | w10 = 16 + ((D2 + D3) mod 7) | 16 + (1 mod 7) = 17 km |
+| e11 (S5, S7) | w11 = 18 + ((D1 + D2) mod 8) | 18 + (6 mod 8) = 24 km |
+| e12 (S6, S7) | w12 = 9 + ((D5 + D1) mod 5) | 9 + (7 mod 5) = 10 km |
+| e12 (S1, S4) | w13 = 20 + (D6 mod 4) | 20 + (5 mod 4) = 21 km |
 
 
 ###  Diagrama topológico:
